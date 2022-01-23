@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto/NotoSerif.eot');
+    src: url('../fonts/Noto/NotoSerif.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Noto/NotoSerif.woff2') format('woff2'),
+        url('../fonts/Noto/NotoSerif.woff') format('woff'),
+        url('../fonts/Noto/NotoSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/Noto/NotoSerif-Bold.eot');
+    src: url('../fonts/Noto/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Noto/NotoSerif-Bold.woff2') format('woff2'),
+        url('../fonts/Noto/NotoSerif-Bold.woff') format('woff'),
+        url('../fonts/Noto/NotoSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'iCielBC';
+    src: url('../fonts/iCielBCHandelson-Regular.woff2') format('woff2'),
+        url('../fonts/iCielBCHandelson-Regular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC';
+    src: url('../fonts/AmericanTypewriterStd-Med.woff2') format('woff2'),
+        url('../fonts/AmericanTypewriterStd-Med.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

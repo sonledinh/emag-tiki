@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'Noto Serif';
+  src: url("../fonts/Noto/NotoSerif.eot");
+  src: url("../fonts/Noto/NotoSerif.eot?#iefix") format("embedded-opentype"), url("../fonts/Noto/NotoSerif.woff2") format("woff2"), url("../fonts/Noto/NotoSerif.woff") format("woff"), url("../fonts/Noto/NotoSerif.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Noto Serif';
+  src: url("../fonts/Noto/NotoSerif-Bold.eot");
+  src: url("../fonts/Noto/NotoSerif-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Noto/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/Noto/NotoSerif-Bold.woff") format("woff"), url("../fonts/Noto/NotoSerif-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Regular.woff2") format("woff2"), url("../fonts/Quicksand-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'iCielBC';
+  src: url("../fonts/iCielBC1913Typewriter-Regular.woff2") format("woff2"), url("../fonts/iCielBC1913Typewriter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Oooh';
+  src: url("../fonts/OoohBaby-Regular.woff2") format("woff2"), url("../fonts/OoohBaby-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../fonts/Quicksand-Bold.woff2") format("woff2"), url("../fonts/Quicksand-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Hina';
+  src: url("../fonts/HinaMincho-Regular.woff2") format("woff2"), url("../fonts/HinaMincho-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+main {
+  margin-top: 44px; }
+
+div#mingid_comments_content {
+  display: none !important; }
+
+.adm-center {
+  text-align: center; }
+
+.sp-sticky-header {
+  z-index: 1002 !important; }
+
+.adm-emag {
+  box-sizing: border-box;
+  font-size: 17px;
+  line-height: 1.6;
+  transition: .3s all;
+  position: relative;
+  font-weight: normal;
+  padding: 0 0 50px 0;
+  font-family: 'Noto Serif';
+  overflow-x: hidden; }
+  .adm-emag .w-100 {
+    width: 100%; }
+  .adm-emag img {
+    max-width: 100%; }
+  .adm-emag p {
+    margin-bottom: 15px;
+    transition: 0.75s all !important;
+    opacity: 0;
+    transform: translateY(30px); }
+    .adm-emag p:last-child {
+      margin-bottom: 0; }
+    .adm-emag p.animated {
+      opacity: 1;
+      transform: translateY(0px); }
+  .adm-emag .emg-center {
+    text-align: center; }
+  .adm-emag .justify-content-center {
+    justify-content: center !important; }
+
+.txt-emag {
+  max-width: 660px;
+  margin: 0 auto 30px auto; }
+
+.txt-emg {
+  max-width: 660px;
+  margin: 0 auto 20px auto;
+  padding: 0 15px; }
+  .txt-emg p span {
+    color: #4f8cb3; }
+
+.cover-box {
+  padding: 0 15px;
+  margin: 0 0 20px 0; }
+
+.title-emg {
+  padding: 0 15px;
+  font-family: 'Hina';
+  max-width: 660px;
+  margin: 0 auto 20px auto; }
+  .title-emg p {
+    color: #4f8cb3;
+    font-size: 25px;
+    margin-bottom: 10px; }
+  .title-emg h3 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: initial; }
+
+.line-title {
+  font-family: 'Quicksand';
+  font-weight: 300;
+  color: #0a96eb;
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+  margin-top: 10px; }
+  .line-title ul {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    justify-content: flex-end; }
+    .line-title ul li {
+      margin-right: 20px; }
+      .line-title ul li:last-child {
+        margin-right: 0; }
+
+.video-emg {
+  margin: 0 0 20px 0; }
+
+.detail-emag {
+  margin: 0 0 20px 0;
+  text-align: center; }
+  .detail-emag p {
+    margin-bottom: 0; }
+  .detail-emag.detail-padd {
+    padding: 0 15px; }
+
+.qoute-emg {
+  position: relative;
+  width: calc(100% - 30px);
+  border: 1px solid #0a96eb;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  max-width: 660px;
+  margin: 0 auto; }
+  .qoute-emg h4 {
+    color: #0a96eb;
+    font-size: 17px;
+    margin-bottom: 10px; }
+  .qoute-emg .avr-qoute {
+    text-align: center; }
+  .qoute-emg a {
+    color: #1ba9ff; }
+
+.list-cover-scroll {
+  padding: 0 10px; }
+  .list-cover-scroll ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .list-cover-scroll ul li {
+      flex: 0 0 50%;
+      max-width: 50%;
+      box-sizing: border-box; }
+
+.item-cover {
+  position: relative; }
+  .item-cover .avarta img {
+    width: 100%; }
+  .item-cover .abs-box {
+    position: absolute; }
+    .item-cover .abs-box img {
+      max-width: 100px; }
+    .item-cover .abs-box.abs-1 {
+      top: 10px;
+      right: -20px; }
+    .item-cover .abs-box.abs-2 {
+      top: 0;
+      right: -6px; }
+    .item-cover .abs-box.abs-3 {
+      top: -25px;
+      right: 10px; }
+    .item-cover .abs-box.abs-4 {
+      bottom: 19%;
+      right: -5px; }
+
+.cover-emag {
+  background: url("../images/bg-cover.jpg") repeat center center;
+  background-size: cover;
+  margin-bottom: 30px;
+  padding: 0 0 30px 0; }
+  .cover-emag .title-cover {
+    padding: 0 30px; }
+  .cover-emag .desc-cover {
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Hina';
+    font-size: 30px;
+    color: #323232;
+    line-height: initial;
+    font-weight: bold; }
+  .cover-emag .cover-tree {
+    position: relative;
+    z-index: 2;
+    margin-top: -34%; }
+  .cover-emag .title-cover {
+    position: relative;
+    margin-top: -38%; }
+
+@keyframes tada-dibao {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  10%,
+    20% {
+    -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -5deg);
+    transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -5deg); }
+  30%,
+    50%,
+    70%,
+    90% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 5deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 5deg); }
+  40%,
+    60%,
+    80% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -5deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -5deg); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+/*# sourceMappingURL=style.css.map */
