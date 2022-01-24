@@ -19,3 +19,12 @@ jQuery(function($) {
   $(window).trigger('scroll');
 }); 
 
+
+$('.item-cover a').click(function(e){
+    e.preventDefault();
+    var target = $($(this).attr('href'));
+    if(target.length){
+        var scrollTo = target.offset().top - 44;
+        $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+    }
+});

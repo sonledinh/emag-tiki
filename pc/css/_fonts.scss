@@ -25,20 +25,75 @@
 
 
 @font-face {
-    font-family: 'iCielBC';
-    src: url('../fonts/iCielBCHandelson-Regular.woff2') format('woff2'),
-        url('../fonts/iCielBCHandelson-Regular.woff') format('woff');
-    font-weight: 100;
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Regular.woff2') format('woff2'),
+        url('../fonts/Quicksand-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'ITC';
-    src: url('../fonts/AmericanTypewriterStd-Med.woff2') format('woff2'),
-        url('../fonts/AmericanTypewriterStd-Med.woff') format('woff');
-    font-weight: 500;
+    font-family: 'iCielBC';
+    src: url('../fonts/iCielBC1913Typewriter-Regular.woff2') format('woff2'),
+        url('../fonts/iCielBC1913Typewriter-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Oooh';
+    src: url('../fonts/OoohBaby-Regular.woff2') format('woff2'),
+        url('../fonts/OoohBaby-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-Bold.woff2') format('woff2'),
+        url('../fonts/Quicksand-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hina';
+    src: url('../fonts/HinaMincho-Regular.woff2') format('woff2'),
+        url('../fonts/HinaMincho-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@keyframes tada-dibao {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        -webkit-transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -5deg);
+        transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -5deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 5deg);
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 5deg);
+    }
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -5deg);
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -5deg);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
