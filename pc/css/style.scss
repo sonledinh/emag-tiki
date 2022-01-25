@@ -17,15 +17,15 @@ div#mingid_comments_content {
     z-index: 1002 !important;
 } 
 .adm-emag { 
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-size: 18px;  
     line-height: 1.7; 
     transition: .3s all; 
     position: relative;  
     font-weight: normal;
-    padding: 0 0 50px 0; 
+    padding: 0 0 80px 0; 
     font-family: 'Noto Serif';
-    overflow-x: hidden; 
+    // overflow-x: hidden;  
     // background: #fef7ed; 
     .w-100 {
         width: 100%;
@@ -60,10 +60,14 @@ div#mingid_comments_content {
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+    padding: 0 0 50px 0;
+    margin-bottom: 50px;
+    overflow: hidden;
     .icon-emg {
         position: absolute;
-        top: 35%;
+        top: 18%;
         left: 50px;
+        z-index: 11;
     }
     .title-cover {
         max-width: 50%;
@@ -104,6 +108,8 @@ div#mingid_comments_content {
         z-index: 2;
         pointer-events: none;
         max-width: 40%;
+        transition: .3s all !important;
+        opacity: 0;
         &.abs-1 {
             bottom: 20%;
             right: -35px;
@@ -126,6 +132,11 @@ div#mingid_comments_content {
     }
     &.box-2 {
         margin-top: 150px;
+    }
+    &:hover {
+        .abs-box {
+            opacity: 1;
+        }
     }
 }
 
@@ -196,6 +207,120 @@ div#mingid_comments_content {
 }
 .detail-8 {
     position: relative;
-    left: 50px;
+    padding-left: 50px;
     margin-top: -100px;
+}
+
+.detail-emg-fl {
+    max-width: 1920px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    .left {
+        flex: 0 0 calc((100% - 660px) / 2);
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .right {
+        box-sizing: border-box;
+        padding-right: 50px;
+    }
+    p {
+        max-width: 660px;
+        margin: 30px 0;
+    }
+}
+
+.album-emg {
+    margin: 0 0 30px 0;
+    ul {
+        list-style: none;
+    }
+}
+
+
+.KW_progressContainer {
+    left:100px;
+    width: calc(100% - 200px);
+    height: 10px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 10px;
+    background-color: #dddddd;
+    content: "";
+    display: table;
+    table-layout: fixed; 
+    z-index: 15;
+    &:after {
+        content: "";
+        width: 50px;
+        height: 10px;
+        background: #1ba9ff;
+        position: absolute;
+        left: -50px;
+        bottom: 0;
+        border-radius: 30px 0 0 30px;
+    }
+    &:before {
+        content: "";
+        width: 50px;
+        height: 10px;
+        background: #dddddd;
+        position: absolute;
+        right: -50px;
+        bottom: 0;
+        border-radius: 0 30px 30px 0;
+    }
+    .icon-bike {
+        position: absolute;
+        bottom: 0;
+        z-index: 1111;
+        left: 0;
+        margin-left: -50px;
+        img {
+            width: 100px;
+        }
+        &:after {
+            content: "";
+            width: 100%;
+            height: 10px;
+            background: #1ba9ff;
+            border-radius: 30px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+}
+
+.KW_progressBar {
+    width: 0%;
+    float: left;
+    height: 10px;
+    z-index:99;
+    max-width: 100%;
+    background-color: #1ba9ff;
+}
+
+.credit-emg {
+    padding: 30px 15px 0 15px;
+    max-width: 660px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1ba9ff;
+    margin: 0 auto;
+    ul {
+        padding-left: 10px;
+        list-style: none;
+        border-left: 5px solid #1ba9ff;
+        line-height: 1;
+        li {
+            margin-bottom: 6px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
 }
